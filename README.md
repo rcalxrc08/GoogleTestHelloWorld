@@ -1,5 +1,5 @@
 # CMakeTest
-Initial setup for C++ project using Google Test
+Initial setup for C++ project using Google Test with Travis
 
 Goal:
 
