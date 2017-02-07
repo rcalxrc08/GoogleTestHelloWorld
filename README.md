@@ -15,4 +15,5 @@ Build:
 - `cmake ..`
 - `make run_unit_tests`
 - `./run_unit_tests`
+
 or simply run googleTester.sh
