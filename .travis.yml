@@ -8,7 +8,7 @@ addons:
     sources: ['ubuntu-toolchain-r-test', 'llvm-toolchain-precise-3.7', 'kalakris-cmake']
     packages: ['clang-3.7', 'cmake']
 install:
-- sudo apt-get update
+- sudo apt-get -y upgrade
 - sudo apt-get install cmake
 - chmod +x googleTester.sh
 script: "bash -c ./googleTester.sh"
