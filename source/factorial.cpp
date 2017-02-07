@@ -9,8 +9,16 @@ int factorial(int n)
 
     return(n * factorial(n-1));
 }
+int one(int in)
+{
+	return 1;
+}
 
 int five(int in)
 {
 	return 5;
+}
+int square(int in)
+{
+	return in*in;
 }
