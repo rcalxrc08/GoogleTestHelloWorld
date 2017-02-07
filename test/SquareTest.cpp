@@ -26,7 +26,7 @@ TEST(Square, SquareTest4)
 }
 TEST(Square, SquareTest5)
 {
-    ASSERT_EQ(24, square(5));
+    ASSERT_EQ(25, square(5));
 }
 TEST(Square, SquareTest6)
 {
