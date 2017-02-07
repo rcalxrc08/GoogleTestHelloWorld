@@ -1,0 +1,10 @@
+#!/bin/bash
+wget https://cmake.org/files/v3.7/cmake-3.7.2.tar.gz
+tar -xzvf cmake-3.7.2.tar.gz
+cd cmake-3.7.2/
+autoreconf -i
+./configure
+make
+sudo make install
+cd ../
+
