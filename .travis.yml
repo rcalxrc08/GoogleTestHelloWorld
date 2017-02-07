@@ -11,7 +11,6 @@ addons:
       - cmake
 install:
 - sudo apt-get update
-- sudo apt-get upgrade
 - sudo apt-get install cmake
 - chmod +x googleTester.sh
 script: "bash -c ./googleTester.sh"
