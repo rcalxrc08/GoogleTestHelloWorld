@@ -1,4 +1,4 @@
-# CMakeTest
+# GoogleTest HelloWorld ![Build Status](https://travis-ci.org/rcalxrc08/GoogleTestHelloWorld.svg?branch=master)
 Initial setup for C++ project using Google Test with Travis
 
 Goal:
