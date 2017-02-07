@@ -5,12 +5,10 @@ notifications:
 sudo: required
 addons:
   apt:
-    sources:
-      - ppa:george-edison55/cmake-3.x
-    packages:
-      - cmake
+    sources: ['ubuntu-toolchain-r-test', 'llvm-toolchain-precise-3.7', 'kalakris-cmake']
+    packages: ['clang-3.7', 'cmake']
 install:
 - sudo apt-get update
 - sudo apt-get install cmake
-- chmod +x googleTester.sh installCmake.sh
+- chmod +x googleTester.sh
 script: "bash -c ./googleTester.sh"
