@@ -1,0 +1,8 @@
+language: cpp
+compiler: g++
+notifications:
+  email: false
+sudo: required
+install:
+- chmod +x googleTester.sh
+script: "bash -c ./googleTester.sh"

@@ -9,3 +9,8 @@ int factorial(int n)
 
     return(n * factorial(n-1));
 }
+
+int five(int in)
+{
+	return 5;
+}
